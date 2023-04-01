@@ -1,0 +1,134 @@
+
+
+
+body {
+    font-family:'Arimo';
+    background: #e8e8e8 url(../img/Combined\ shape\ 4.png) 50% 130px no-repeat;
+}
+
+.section{
+    padding: 100px 125px;
+    margin: 0px auto;
+    max-width: 841px;
+}
+
+.top_section  {
+    text-align: center;
+}
+
+.a{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 2.8px;
+    text-transform: uppercase;
+    color: #5f6b70;
+    margin-bottom: -10px;
+    }
+
+.b{
+    font-weight: 400;
+    margin-bottom: 90px;
+    line-height: 50px;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 36px;
+
+}
+
+.img{
+    box-shadow: 0 15px 65px rgba(15, 16, 16, 0.15);
+    background-color: #FFFFFF;
+    padding: 10px 10px 5px 10px;
+}
+
+.img img{
+    max-width: 100%;
+}
+
+.text_under_photo {
+    padding: 0 45px;
+    margin-top: 65px;
+}
+
+.text_under_photo p{
+    margin: 0 0 40px 0;
+}
+
+.text_under_photo  > p {
+    font-family: 'Titillium Web', sans-serif;
+    line-height: 40px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    color: #273D46;
+    margin-bottom: 40px;
+}
+
+.list li{
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 36px;
+    list-style: none;
+    background: url(../img/free-icon-check-mark-5290119.png) left no-repeat;
+    padding-left: 20px;
+    margin-bottom: 18px;
+    
+}
+
+.list li:nth-child(1){
+    color: #273d46;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.3);
+}
+
+.list li:nth-child(2){
+    color: #80b7b3;
+    font-style: italic;
+}
+
+.list li:nth-child(3){
+    color: #273D46;
+    font-weight: 700;
+}
+
+.list li:nth-child(4){
+    text-decoration: line-through;
+    color: gray;
+    margin-bottom: 45px;
+}
+
+.list li:nth-child(4) span{
+    opacity: 0.3;
+}
+
+.btn{
+    box-shadow: 0 6px 1px #273D46;
+    background-color: #80b7b3;
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 24px;
+    padding: 0 30px;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 2.8px;
+    margin: 0 0 0 40px;
+    text-decoration: none;
+    color: black;
+}
+
+.btn span {
+    background: url(../img/1486348525-music-forward-front-next-arrow_80457\ \(1\).svg) right no-repeat;
+    padding: 0 30px 0 0;
+}
+
+.btn:hover{
+    background-color: #a33c3c;
+}
+
+.btn:active{
+    box-shadow: 0 2px 1px #273D46;
+    top: 3px;
+    position: relative;
+}
