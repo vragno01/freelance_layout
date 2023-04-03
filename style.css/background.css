@@ -129,6 +129,6 @@ body {
 
 .btn:active{
     box-shadow: 0 2px 1px #273D46;
-    top: 3px;
+    top: 2px;
     position: relative;
 }
